@@ -12,7 +12,8 @@
       $body = "Name: $name\nPhone: $phone\nEmail: $email\nLocation: $website\n\nLoan Enquiry:\n$message\n\nRegard,\n$name";
       $sender = "From: $email";
       if(mail($receiver, $subject, $body, $sender)){
-         echo "Your message has been sent";
+        //  echo "Your message has been sent";
+         header("Location: thankyou.html");
       }else{
          echo "Sorry, failed to send your message!";
       }
