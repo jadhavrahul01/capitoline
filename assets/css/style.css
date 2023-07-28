@@ -15494,3 +15494,15 @@ input.whats-input[type=text]:focus {
 .btn-store .btn-caption {
     font-size: 24px;
 }
+
+.privacy p,
+.privacy h1,
+.privacy h2,
+.privacy h3 {
+    color: #000;
+}
+
+.privacy {
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
